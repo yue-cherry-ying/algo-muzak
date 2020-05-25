@@ -69,7 +69,7 @@ window.onload = function(){
 
 
   const delayStart = 1
-  const tempo = 110
+  const tempo = 150
   const beat = 60 / tempo
   const bar = beat * 4
   const root = 277.18
