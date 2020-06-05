@@ -1,6 +1,63 @@
+
+body {
+  text-align: center;
+  background-color:#191970;
+}
+
+h1 {
+   /* https://codepen.io/AllThingsSmitty/pen/VzXrgY*/
+   color: #fff;
+   text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #FF00BB,
+    0 0 80px #FF00BB,
+    0 0 90px #FF00BB,
+    0 0 100px #FF00BB,
+    0 0 150px #FF00BB;
+   font-size: 130px;
+   font-family: 'Courier New', Courier, monospace;
+   margin: 25px;
+   position: relative;
+   text-align: center;
+}
+
 button{
   color: white;
   background-color: #DC143C;
   padding: 4px 16px;
   font-family: 'Audiowide', cursive;
+}
+
+h2 {
+  text-align: left;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+  margin-left: 33%;
+  animation-name: flash;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes flash {
+  0% {color: #fff;}
+  50% {color: #FF00BB;}
+  100% {color: #fff;}
+}
+
+p {
+  font-family: 'Courier New', Courier, monospace;
+  color: #fff;
+  font-size: 18px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: left;
+  border-color: #f77e7e;
+  border-width: 5px;
+  border-style: dotted;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 40px;
+  margin-bottom: 80px;
 }
