@@ -1,7 +1,7 @@
 
 window.onload = function(){
-  // const ctx = new (window.AudioContext || window.webkitAudioContext)()
-  const ctx = new AudioContext()
+  const ctx = new (window.AudioContext || window.webkitAudioContext)()
+  // const ctx = new AudioContext()
   const fft = new AnalyserNode(ctx, { fftSize: 2048 })
   createWaveCanvas({ element: 'section', analyser: fft })
 
